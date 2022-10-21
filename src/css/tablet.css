@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /***** header *****/
+  header .header_wrap {
+    padding: 0 200px;
+  }
+
+  /***** main *****/
+  main section {
+    padding: 100px 200px 0;
+  }
+
+  /*** section home_main ***/
+  main .home_main .home_main_image {
+    text-align: center;
+  }
+
+  /*** day-list ***/
+  .day_item .day_item_emoji {
+    font-size: 25px;
+  }
+
+  .day_item .day_item_detail .day_item_detail_name {
+    min-width: 280px;
+  }
+}

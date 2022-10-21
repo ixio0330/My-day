@@ -1,0 +1,122 @@
+@media screen and (min-width: 1200px) {
+  a:hover, button:hover {
+    cursor: pointer;
+  }
+  /***** common *****/
+  main .button {
+    width: 200px;
+    height: 50px;
+  }
+
+  main .btn_wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main .input_wrap {
+    margin: 30px 0;
+    font-size: 20px;
+  }
+
+  main .input_wrap input, main .input_wrap select {
+    width: 250px;
+    font-size: 17px;
+  }
+
+  /***** header *****/
+  header .header_wrap {
+    padding: 0 300px;
+  }
+
+  /***** main *****/
+  main section {
+    padding: 0 300px;
+    min-height: calc(100vh - 100px);
+    padding-top: 100px;
+    margin: 0 auto;
+  }
+
+  /*** section home_main ***/
+  main .home_main h2 {
+    font-size: 50px;
+  }
+
+  main .home_main .home_main_content {
+    padding-right: 100px;
+    width: 50%;
+    z-index: 2;
+  }
+
+  main .home_main .home_main_image {
+    position: absolute;
+    right: -45vw;
+    top: 300px;
+    z-index: 1;
+  }
+
+  main .home_main .home_main_image img {
+    width: 800px;
+  }
+
+  main .home_main .home_main_content h3 {
+    font-size: 40px;
+    margin: 100px 0 50px;
+  }
+
+  /*** section home_list ***/
+  main .home_list .home_list_wrap {
+    margin-top: 40px;
+  }
+
+  main .home_list .input_search {
+    width: 500px;
+  }
+
+  main .home_list .list_action_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*** section action_main ***/
+  main .action_main {
+    flex-direction: row;
+    align-items: center;
+  }
+  main .action_main .action_img {
+    width: 50%;
+  }
+
+  main .action_main .action_img img {
+    width: 550px;
+  }
+
+  main .action_main .action_content {
+    width: 50%;
+  }
+
+  main .action_main h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  main .action_main h3 {
+    font-size: 40px;
+  }
+
+  /*** section notfound_main ***/
+  .notfound_main img {
+    width: auto;
+  }
+
+  /*** day-list ***/
+  .day_item {
+    padding: 20px 0;
+  }
+  .day_item .day_item_emoji {
+    font-size: 30px;
+  }
+  .day_item .day_item_detail .day_item_detail_name {
+    min-width: 500px;
+  }
+}
