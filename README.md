@@ -35,4 +35,6 @@ $ npm start
 
 어플리케이션은 [http://localhost:3000](http://localhost:3000)에서 실행됩니다.
 
-현재 vercel을 이용해서 배포를 했기때문에, [My-day(마이데이)](https://my-day-s.vercel.app/)에 접속하면 사용할 수 있습니다.
+<h3>Review</h3>
+
+[My-day 프로젝트 후기](https://velog.io/@seo__namu/My-day-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9B%84%EA%B8%B0)에 개발 후기를 기록했습니다.
