@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 .loader_wrap {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
-  top: 50%;
-  left: 50%;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
 }
 .loader,
 .loader:after {
