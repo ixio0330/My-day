@@ -1,5 +1,5 @@
 export function getToday() {
-  return new Date().toLocaleString().replaceAll('. ', '-').slice(0, 10);
+  return new Date().toISOString().slice(0, 10);
 }
 
 export function getTomorrow() {
